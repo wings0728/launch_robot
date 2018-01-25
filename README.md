@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-clone the folder from github:
-	$ git clone https://github.com/chengyuen93/launch_robot
-
 this folder contains the following essential items:
 	- maps          - maps for navigation
         - params        - params required for move_base
@@ -18,7 +14,9 @@ this folder contains the following essential items:
                                 - t3_sendGoals
                                 - auto_shutdown
 
+README:
+- robot_catkin_ws.md为机器人端ros程序的安装教程
+- robot_overlay_ws.md为机器人端ros覆写底层源码教程
+- interface_robot&server.md为机器人与服务器的接口
 
-=======
-# launch_robot
->>>>>>> 6ed738651ce4ea255dde01879d158a43dd12a86c
+
