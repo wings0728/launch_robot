@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 clone the folder from github:
 	$ git clone https://github.com/chengyuen93/launch_robot
 
@@ -18,3 +19,6 @@ this folder contains the following essential items:
                                 - auto_shutdown
 
 
+=======
+# launch_robot
+>>>>>>> 6ed738651ce4ea255dde01879d158a43dd12a86c
