@@ -48,6 +48,9 @@
 ## t3_description:
 > git clone https://github.com/wings0728/t3_description
 
+## imu_serial:
+> git clone https://github.com/wings0728/imu_serial
+
 ## turtlebot3 & turtlebot3_msgs:
 >	follow instructions from the following website: 
 >		http://xiaoyatec.com/2017/07/07/turtlebot3-%e5%85%a5%e9%97%a8%e6%95%99%e7%a8%8b-%e7%9b%ae%e5%bd%95/
