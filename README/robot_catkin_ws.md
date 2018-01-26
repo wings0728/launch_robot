@@ -49,6 +49,7 @@
 > git clone https://github.com/wings0728/t3_description
 
 ## imu_serial:
+> sudo apt-get install ros-kinetic-serial
 > git clone https://github.com/wings0728/imu_serial
 
 ## turtlebot3 & turtlebot3_msgs:
