@@ -7,10 +7,10 @@
         <param name="publish_frequency" type="double" value="50.0" />
     </node>
 
-    <!-- connect to hardware and lidar-->
+    <!-- connect to hardware and lidar and IMU-->
     <include file="$(find launch_robot)/launch/core.launch"/>
     <include file="$(find flashgo)/launch/lidar.launch"/>
-
+    <include file="$(find imu_serial)/launch/imu_serial_node.launch"/>
     <!-- map server -->
     <arg name="map_file" default="$(find launch_robot)/maps/mymap.yaml"/>
     <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"/>
